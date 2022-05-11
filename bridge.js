@@ -1,3 +1,8 @@
+// 使用方法
+// import { callhandler } from "@/tools/bridge";
+// let res = await callhandler("getUser");
+// console.log("获取数据", res);
+
 /**
  * 和 webview交互 ,这段代码是固定的，必须要放到js中. 官方文档 https://github.com/marcuswestin/WebViewJavascriptBridge
  * @param {function} callback
